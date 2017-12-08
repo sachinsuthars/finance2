@@ -1,0 +1,177 @@
+//Main Wrapper
+@import "Styles/intro.scss";
+@import "Styles/button.scss";
+@import "Styles/billing.scss";
+@import "Styles/payment.scss";
+@import "Styles/footer.scss";
+@import "Styles/dynamic.scss";
+@import "Styles/thankYou.scss";
+
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+#Frequency
+{
+    margin-bottom: 25px;
+        width: 96%;
+}
+
+.frequencyButton:hover
+{
+    color:#fff !important;
+    background:#000 !important;
+}
+
+.content-area{
+    max-width: 1160px;
+    width:100%;
+    margin: 0 auto;
+    clear:both;
+    display:block;
+   
+}
+
+#mainLogo {
+    padding-left: 60px;
+    padding-top: 22px;
+    margin-bottom: 15px;
+}
+
+select {
+    height: 45px !important;
+    width:100%;
+    color: #8D8D8D !important;
+    border: #c5c2bd 1px solid !important;
+    background: rgb(255,255,255);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(241,241,239,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,239,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,239,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(241,241,239,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1f1ef',GradientType=0 );
+}
+
+ 
+
+
+//Frequency Buttons
+#frequencySelection{
+   
+    .button-regular{
+        color: #a6a6a6;
+        background-color: #fff;
+        border-color: #c8c8c8;
+    }
+}
+
+
+
+.donateSubmit:hover {
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#eaeaea');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#dbdbdb', endColorstr='#eaeaea')";
+    background-image: -ms-linear-gradient(top, #dbdbdb, #eaeaea);
+    background-image: -webkit-linear-gradient(top, #dbdbdb, #eaeaea);
+    background-image: -moz-linear-gradient(top, #dbdbdb, #eaeaea);
+    background-image: -o-linear-gradient(top, #dbdbdb, #eaeaea);
+    background-image: linear-gradient(top, #dbdbdb, #eaeaea);
+
+}
+
+div.responsive button.finish-step {
+    float: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    filter: none;
+}
+
+//Donate Buttons
+.donateSubmit{
+    float: none;
+    display: inline-block;
+    margin: 16px 0 0 0;
+    width:100%;
+    border-radius:6px;
+    border: 4px solid #f8981d;
+    min-width: 0;
+    min-height: 0;
+    max-width: 100%;
+    max-height: 100%;
+    color: #ffffff;
+    background-color: #f8981d;
+    background-image: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    filter: none;
+    height: 60px;
+}
+
+#errors{
+     h2{
+        font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        color: red;
+        font-weight: normal;
+        padding: 0px;
+        font-size: 1em;
+        margin: 0px;
+    }
+    
+}
+
+ 
+
+
+
+#customAmountSection{
+    
+   
+    
+    
+    span{
+        font-size: 24px;
+        color: #333333;
+    }
+}
+
+.desktopShow{
+    display: block;
+}
+
+.mobileShow{
+    display: none;
+}
+
+
+@media(max-width:769px){
+    
+    .noPadding{
+        padding: 0px !important;
+    }
+    
+    #mainLogo{
+        padding-left:0px;
+        text-align:center;
+        
+        img{
+            margin: 0 auto;
+        }
+    }
+    
+    .desktopShow{
+        display: none;
+    }
+    
+    .mobileShow{
+        display: block;
+    }
+    
+    h1{
+        font-size: 24px;
+    }
+}
+

@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: 'Trajan Pro';
+  src: local('Trajan Pro Regular'), url(./fonts/Trajan Pro Regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'proxima-nova';
+  src: local('Mark Simonson - Proxima Nova Alt Regular-webfont'), url(./fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff) format('woff');
+}

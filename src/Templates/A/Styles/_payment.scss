@@ -1,0 +1,108 @@
+#payment{
+    
+    .field{
+        display:block;
+        margin:22px 0px;
+    }
+    
+    sup{
+        font-size: 34px;
+        vertical-align: bottom;
+        color: red;
+    }
+    
+    label{
+        display: inline-block !important;
+        width: 100% !important;
+        max-width: 220px;
+        min-width: 0px !important;
+        min-height: 40px !important;
+        vertical-align: middle;
+        color: #000000;
+        font: normal normal normal 18px/22px 'Raleway', Tahoma, sans-serif;
+    }
+    
+    input[type="text"], input[type="email"]{
+        display: inline-block !important;
+        width: 100%;
+        max-width: 470px;
+        border: 1px solid #d9d6cf;
+        padding: 5px 7px;
+        border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -webkit-box-shadow: inset 3px 3px 3px #f0f0f0;
+            -moz-box-shadow: inset 3px 3px 3px #f0f0f0;
+        box-shadow: inset 3px 3px 3px #f0f0f0;
+    }
+    
+    select{
+       width: 100%;
+       max-width: 470px;
+       border: 1px solid #d9d6cf;
+       padding: 5px 7px;
+       border-radius: 5px;
+       box-shadow: inset 3px 3px 3px #f0f0f0;
+    }
+    
+    .inputClass{
+        display: inline-block !important;
+        width: 100%;
+        max-width: 470px;
+        border: 1px solid #d9d6cf;
+        padding: 5px 7px;
+        border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -webkit-box-shadow: inset 3px 3px 3px #f0f0f0;
+            -moz-box-shadow: inset 3px 3px 3px #f0f0f0;
+        box-shadow: inset 3px 3px 3px #f0f0f0;
+        
+    }
+    
+    .smallInput{
+        max-width: 160px !important;
+    }
+    
+    .mediumInput{
+        max-width: 210px !important;
+    }
+    
+    
+    fieldset{
+        border: solid 1px #dddddd;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px;
+        padding: 12px;
+        margin: 18px 0;
+        width: 200px;
+        
+        legend{
+           float: none !important;
+           font-size:19px;
+           font-weight:bold;
+           border-bottom:none;
+           margin-bottom:0px;
+        }
+        
+        ul{
+            
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            
+            li{
+                
+                display: inline;
+                padding:0 4px;
+            
+            }
+            
+        }
+    }
+    
+    
+}

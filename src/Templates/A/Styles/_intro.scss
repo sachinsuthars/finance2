@@ -1,0 +1,191 @@
+#intro{
+    background-position: center 0px;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	height: auto;
+	padding: 28px 0px 38px 184px;
+    
+	width: 100%;
+}
+ div.ErrorMessage.page-error {
+    border: 1px solid #B94A49;
+    background-color: #feeaeb;
+    padding: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    margin-top: 4px;
+}
+.ErrorMessage.page-error>span.field-error-text {
+    border: 1px solid #e0b1b2;
+    background-color: #FFFFFF;
+    color: #990000;
+    padding: 6px;
+    -moz-border-radius: 0px 3px 3px 0px;
+    -webkit-border-radius: 0px 3px 3px 0px;
+    border-radius: 0px 3px 3px 0px;
+    font-size: 1em;
+    display: inline-block;
+    zoom: 1;
+    width:100%;
+}
+.errorMessageContainer{
+    display:none;
+        margin-bottom: 15px;
+}
+
+.field-error-indicator {
+    height: 23px;
+    width: 18px;
+    background-image: url('./Styles/page_error_icon.png');
+    vertical-align: top;
+    background-repeat: no-repeat;
+    display:inline-block !important;
+    zoom: 1;
+  
+}
+.cl-agree{
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+#employee
+{
+    margin-bottom: 45px;
+}
+.inputClass.mediumInput.StripeElement{
+    height: 45px;
+    padding: 14px 5px !important;
+    border: 1px solid #d9d6cf;
+    border-radius: 6px;
+}
+.StripeElement .ElementsApp input {
+    -webkit-animation: 1ms void-animation-out;
+    color: #8D8D8D !important;
+}
+.InputElement {
+    top: 15px;
+}
+
+input#customAmount::placeholder {
+    color: rgb(246, 145, 152);
+}
+.redColor:hover{
+    color:#dc2c30;
+}
+.redColor{
+    color:#dc2c30;
+    font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+
+.mt-10{
+    margin-top:10px;
+}
+.mt-15{
+    margin-top:10px;
+}
+.mt-20{
+    margin-top:20px;
+}
+.hgt70{
+    height:70px;
+}
+
+
+.left-10{
+    left:10px;
+}
+.ml-10{
+    margin-left:10px;
+}
+
+
+a.csv_help {
+    color: #ed2433 !important;
+    font-weight: bold;
+    letter-spacing: .6px;
+}
+
+#donationButtonsArray sup {
+    font-size: 34px;
+    vertical-align: bottom;
+    color: red;
+    top:0px;
+}
+
+.intro p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #3c3c3c;
+    font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+}
+
+#employee p{
+    font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+        font-size: 10pt
+}
+
+.intro h1{
+    font-size: 24px;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+    margin-top: 0;
+        font-family: trajan-pro-3, 'Trajan Pro', 'Georgia', 'Times New Roman', serif;
+   
+}
+
+ h2, h3 {
+    font-size: 16px;
+    font-family: trajan-pro-3, 'Trajan Pro', 'times new roman', serif;
+    padding: 40px 0 20px 0;
+    margin-bottom: 25px;
+}
+
+h2.section-header-container{
+    padding-top: 30px;
+    padding-bottom: 25px;
+    margin: 20px 0 0 0px;
+    text-transform: uppercase;
+}
+ 
+.section-header-container {
+    margin-top: 20px;
+}
+ 
+.section-header-container {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.frequency_p{
+    font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+}
+
+.content-bar{
+    width:55%;
+	background-color: #fff;
+    border: 0.62px solid #878787;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    height: auto;
+    padding: 30px 40px;
+    
+}
+
+.img-logo{
+	width:418px;
+	height:88px;
+}

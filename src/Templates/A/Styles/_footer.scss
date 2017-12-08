@@ -1,0 +1,41 @@
+#Footer{
+    
+ 
+    width: 100%;
+    border-top: solid 6px #dc2c30;
+    color: #fff;
+    display:inline-block;
+    background-color: #3a3a3a;
+    margin-bottom: -20px;
+ 
+    .footerlogo{
+       width: 130px;
+       margin-left: 10px;
+    }
+
+    .p_privacy{
+            font-size:12px;
+            font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+            font-weight: normal;
+     }
+
+    .content-area{
+            margin: 20px auto 0 auto;
+            padding: 60px 0 40px 0;
+            width: 75%;
+    }
+    .footer-headline {
+        font-size: 28px;
+         color: #fff;
+        font-family: trajan-pro-3, "Trajan Pro", "Georgia", "Times New Roman", serif;
+        margin: 0;
+        padding-bottom: 33px;
+    }
+
+    .footer-module p{
+        font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+        font-weight: normal;
+    }
+    
+}
+ 
